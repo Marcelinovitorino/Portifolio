@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcelino Manguele | Desenvolvedor Full Stack</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                Marcelino
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Olá, eu sou <span>Marcelino Manguele</span></h1>
+                    <h3>
+                        Desenvolvedor Full Stack apaixonado por criar soluções digitais
+                        inovadoras e experiências de usuário excepcionais.
+                    </h3>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-project-diagram"></i> Ver Projetos
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Entrar em contacto
+                        </a>
+                    </div>
+                    <p>Redes sociais</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="public/img/Imagem WhatsApp 2025-05-07 às 15.11.13_8f618917.jpg"
+                        alt="Marcelino Manguele" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projetos</h2>
+                <p>
+                    Confira alguns dos meus trabalhos recentes em desenvolvimento de
+                    software e design de interfaces.
+                </p>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active">Todos</button>
+                <button class="filter-btn">Frontend</button>
+                <button class="filter-btn">Backend</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>
+                            Plataforma de e-commerce completa com carrinho de compras,
+                            pagamentos e painel administrativo.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>App de Finanças Pessoais</h3>
+                        <p>
+                            Aplicativo para controle de gastos pessoais com relatórios e
+                            metas financeiras.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React Native</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">Redux</span>
+                        </div>
+                        <a href="#" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Análise de Dados</h3>
+                        <p>
+                            Dashboard interativo para análise de dados com visualizações em
+                            tempo real.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">D3.js</span>
+                        </div>
+                        <a href="#" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Minhas Habilidades</h2>
+                <p>
+                    Tecnologias e ferramentas com as quais tenho experiência e
+                    conhecimento.
+                </p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-html5"></i> HTML/CSS
+                            </div>
+                            <div>95%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-js"></i> JavaScript
+                            </div>
+                            <div>90%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name"><i class="fab fa-react"></i> React</div>
+                            <div>85%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-vuejs"></i> Vue.js
+                            </div>
+                            <div>80%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-wind"></i> Tailwind CSS
+                            </div>
+                            <div>85%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-node-js"></i> Node.js
+                            </div>
+                            <div>85%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-code"></i> Express
+                            </div>
+                            <div>90%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-python"></i> Python
+                            </div>
+                            <div>75%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-php"></i> PHP/Laravel
+                            </div>
+                            <div>50%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-exchange-alt"></i> API RESTful
+                            </div>
+                            <div>95%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-database"></i> Banco de Dados</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-leaf"></i> MongoDB
+                            </div>
+                            <div>90%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-database"></i> MySQL
+                            </div>
+                            <div>85%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-database"></i> PostgreSQL
+                            </div>
+                            <div>80%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Ferramentas</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-git-alt"></i> Git/GitHub
+                            </div>
+                            <div>95%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-docker"></i> Docker
+                            </div>
+                            <div>85%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name"><i class="fab fa-aws"></i> AWS</div>
+                            <div>80%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name"><i class="fab fa-figma"></i> Figma</div>
+                            <div>75%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Mim</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="public/img/Imagem WhatsApp 2025-05-07 às 15.11.13_8f618917.jpg"
+                        alt="Marcelino Manguele" />
+                </div>
+                <div class="about-text">
+                    <h3>Olá! Sou Marcelino Manguele</h3>
+                    <p>
+                        Desenvolvedor Full Stack com mais de 3 anos de experiência na
+                        criação de aplicações web e móveis. Minha jornada começou com
+                        HTML, CSS e JavaScript, e desde então tenho me aprofundado em
+                        diversas tecnologias e frameworks modernos.
+                    </p>
+                    <p>
+                        Sou apaixonado por resolver problemas complexos e transformar
+                        ideias em produtos digitais funcionais e elegantes. Minha
+                        abordagem combina habilidades técnicas sólidas com uma forte
+                        compreensão de design de experiência do usuário.
+                    </p>
+                    <p>
+                        Quando não estou codificando, gosto de contribuir para projetos
+                        open source, escrever artigos técnicos e participar de hackathons.
+                        Também sou um entusiasta de tecnologias emergentes como IA e
+                        blockchain.
+                    </p>
+
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="info-text">
+                                <strong>Educação</strong>
+                                <span>Bacharelado em Ciência da Computação pela UEM</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div class="info-text">
+                                <strong>Experiência</strong>
+                                <span>6+ anos como Full Stack</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-text">
+                                <strong>Localização</strong>
+                                <span>Maputo, Moçambique</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <div class="info-text">
+                                <strong>Idiomas</strong>
+                                <span>Português, Inglês</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>
+                    Tem um projeto em mente ou quer conversar sobre oportunidades de
+                    trabalho? Entre em contato comigo!
+                </p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h4>Localização</h4>
+                            <p>Maputo, Moçambique</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a
+                                href="mailto:marcelinovitorinomanguele00@gmail.com">marcelinovitorinomanguele00@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="contact-text">
+                            <h4>Telefone</h4>
+                            <a href="tel:+258876804597">+258 876804597</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-text">
+                            <h4>Disponibilidade</h4>
+                            <p>Segunda a Sexta, 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-share-alt"></i>
+                        <div class="contact-text">
+                            <h4>Redes Sociais</h4>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" />
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                        Marcelino Manguele
+                    </div>
+                    <p style="margin-top: 20px; color: var(--medium-text)">
+                        Desenvolvedor Full Stack apaixonado por criar soluções digitais
+                        inovadoras e experiências de usuário excepcionais.
+                    </p>
+                    <div class="social-icons" style="margin-top: 20px">
+                        <a href="https://github.com/Marcelinovitorino"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/marcelino-manguele-25119b28b/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+                        </li>
+                        <li>
+                            <a href="#projects"><i class="fas fa-chevron-right"></i> Projetos</a>
+                        </li>
+                        <li>
+                            <a href="#skills"><i class="fas fa-chevron-right"></i> Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#about"><i class="fas fa-chevron-right"></i> Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#contact"><i class="fas fa-chevron-right"></i> Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i> Desenvolvimento Web</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i> Aplicativos Móveis</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i> Consultoria</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-chevron-right"></i> Manutenção</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2025 Marcelino Manguele. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
